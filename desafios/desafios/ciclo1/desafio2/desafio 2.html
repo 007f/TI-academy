@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title> DESAFIO2 Felipe Saueressig Mello </title>
+</head>
+<style>
+	body{
+		margin: 0;
+	}
+
+	header, footer{
+		width: 100%;
+		height: 50px;
+		border-bottom: 1px solid #000;
+		background-color: #000;
+		position: fixed;
+	}
+
+	header{
+		top: 0;
+		
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	main{
+		width: 100%;
+		height: auto;
+		display: flex;
+		position: absolute;
+	}
+
+	#exterior{
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		top: 35%;
+		left: 10%;
+	}
+
+	footer{
+		bottom: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top: 1px solid black;
+		color: #fff;
+		font-family: arial, cursive;
+		font-weight: bold;
+	}
+
+	#content{
+		width: 20%;
+		height: 100px;
+		margin: 0;
+ 		background-color: #F3EEE4;
+ 		border-right: 2px dotted gray;
+ 		
+	}
+
+	p{
+		margin: 0;
+		font-family: arial, cursive;
+	}
+
+	a{
+		margin-left: 40px;
+		margin-right: 5px;
+	}
+
+
+	#text-mail{
+ 		margin-left: 2px;
+ 		display: flex;
+ 		flex-direction: column;
+	}
+
+	#logo{
+		color: #fff;
+		width: auto;
+		height: 90%;
+		display: flex;
+		font-family: arial, cursive;
+		font-weight: bold;
+		flex-direction: row;
+		font-size: 20px;
+		align-items: center;
+	}
+
+	#home{
+		width: 100px;
+		height: 70%;
+		display: flex;
+		background-color: orange;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50px;
+	}
+
+	.text-decoration{
+		text-decoration: none;
+
+	}
+
+	.color{
+		color: #fff;
+	}
+
+	#btn{
+	width: 100px;
+	padding: 8px;
+	height: auto;
+	margin-top: 2px;
+	border: none;
+	align-self: center;
+	border-radius: 5px;
+	background-color: orange;
+	color: #fff;
+	font-family: arial, cursive;
+		font-weight: bold;
+}
+
+</style>
+<body>
+	<header>
+		<div id="logo">LOGO</div>
+		<div id="logo">
+			<a id="home" class="text-decoration color" href="">Home</a>
+			<a class="text-decoration color" href="">Contato</a>
+			<a class="text-decoration color" href="">Sobre</a>
+		</div>
+	</header>
+	<main>
+		<div id="exterior">
+			<div id="content" class="text-decoration">
+				<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua."</p>
+			</div>
+			<div id="form">
+				<form id="text-mail">
+					<label>E-mail:</label>
+					<input type="text" name="e-mail">
+					<input id="btn" type="submit" value="enviar" name="enviar">
+				</form>
+			</div>
+		</div>
+		<footer>by TI-ACADEMY</footer>
+	</main>
+</body>
+</html>

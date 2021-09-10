@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ciclo2 - desafio2</title>	
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<script type="text/javascript" >	
+
+function fruta(x){
+	console.log(x);
+	switch(x){
+		case 1:{
+			document.write("A Laranja esta na lista");
+			break;
+}
+		case 2:{
+			document.write("A Uva esta na lista");
+			break;
+}
+		case 3:{
+			document.write("A Pera esta na lista");
+			break;
+}
+		case 4:{
+			document.write("A Manga esta na lista");
+			break;
+}
+		default:{ 
+			
+			document.write("a fruta não esta na lista");
+			break;
+		}
+}
+}	
+</script>
+<body>
+	<p>Escolha uma fruta da lista <br></p>
+	<input type="button" onclick="fruta(1)" name="" value="laranja">
+	<input type="button" onclick="fruta(2)" name="" value="Uva">
+	<input type="button" onclick="fruta(3)" name="" value="Pera">
+	<input type="button" onclick="fruta(4)" name="" value="Manga">
+	<input type="button" onclick="fruta(5)" name="" value="   ?   ">
+</body>
+</html>

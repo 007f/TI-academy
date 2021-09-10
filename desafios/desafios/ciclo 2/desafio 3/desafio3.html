@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ciclo2-desafio3</title>
+	<script type="text/javascript" src="desafio3.js"></script>
+</head>
+<style>
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    margin: 30vh auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.textBox {
+    
+    width: 150px;
+    height: 25px;
+    float: right;
+    margin: 5px;
+}
+
+.btn-div {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 0px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #483D8B;
+    color: #fff;
+
+
+}
+</style>
+<body>
+	<main>
+        <div class="conteudo">
+            <form class="formulario" action="">
+
+                <label for="">Digite o Valor 1
+                    <input class="textBox" type="number" name="" id="txtValor1" placeholder="Digite aqui o valor 1">
+                </label>
+                <label for="">Digite o Valor 2
+                    <input class="textBox" type="number" name="" id="txtValor2" placeholder="Digite aqui o valor 2">
+                </label>
+                <label for="">Informe o Resultado
+                    <input class="textBox" type="number" name="" id="txtResultado"
+                        placeholder="Digite aqui o resultado">
+                </label>
+                <div class="btn-div">
+                    <input class="btn" id="btnResultado" type="button" value="Confirmar Resultado">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+	margin: 100px;
+	padding: 0px;
+}
+main{
+	width: 400px;
+	height: 400px; 
+	margin: 0 auto;
+	justify-content: center;
+	background-color: greenyellow;
+	display: flex;
+	padding: 3px;
+justify-content: space-between;
+}
+.quadrado{
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+	margin: 2px;
+	border: 1px solid #000;
+	font-family: Verdana, Arial, cursive;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.circ{
+	width: 100px;
+	height: 100px;
+	background-color: #015793;
+	border-radius: 100%;
+	position: relative;
+	top: 74.5%;
+	left: 0px;
+	border: 1px solid #000;
+	
+	
+}
+.formatação{
+	color: #000;
+	font-family: Verdana, Arial, cursive;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

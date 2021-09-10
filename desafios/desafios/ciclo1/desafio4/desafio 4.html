@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Interação e Escrita-Desafio4 Felipe Saueressig Mello</title>
+</head>
+<style>
+	body{
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+
+	}
+
+	main, header, footer{
+		box-shadow: 1px 1px 10px 1px gray;
+	}
+
+	header, footer{
+		width: 60%;
+		height: 20%;
+		border-bottom: 1px solid #000;
+		background-color: ;
+		position: absolute;
+		justify-content: space-around;
+		align-self: center;
+	}
+
+	header{
+		top: 0;
+		background-color: green;
+		display: flex;
+		flex-direction: column;
+	}
+
+	img{
+		width: 100%;
+		height: 80%;
+		}
+	#links{
+		width: 100%;
+		height: 20%;
+		background-color: black;
+		display: flex;
+		justify-content: space-around;
+		font-family: arial, cursive;
+	}
+
+	#menu{
+		color: #fff;
+		text-decoration: none;
+	}
+
+	#menu:hover{
+		text-decoration: underline;
+	}
+
+	footer{
+		border-bottom: 0;
+		height: 40px;
+		border-top: 2px solid gray;
+		position: relative;
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		z-index: 11;
+	}
+
+	main{
+		width: 60%;
+		height: auto;
+		margin-bottom: 0.5%;
+		background-color: ;
+		margin-top: 125px;
+		display: flex;
+		z-index: 10;
+		align-self: center;
+		flex-direction: column;
+	}
+	#texto{
+		font-weight: bold;
+		font-family: arial, cursive;
+		padding: 2px;
+		border-bottom: 1px solid gray;
+	}
+	#txt-inicio{
+		font-weight: normal;
+		font-family: arial, cursive;
+	}
+	#texto-bold{
+		font-weight: bold;
+		font-family: arial, cursive;
+	}
+
+	#equipe{
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#part{
+		display: flex;
+		flex-direction: column;
+		text-decoration: none;
+		color: black;
+	}
+	#part:hover{
+		text-decoration: underline;
+	}
+	ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: flex;
+	}
+	@media screen and (max-width: 700px){
+		#equipe{
+			flex-direction: column;
+		}
+		header{
+			height: auto;
+		}
+		#links{
+			flex-direction: column;
+		}
+		main{
+			margin-top: 230px;
+			box-sizing: border-box;
+		}
+	}
+	@media screen and (max-width: 640px){
+		main{
+			margin-top: 0%;
+		}
+		header{
+			display: none;
+		}
+	}
+
+</style>
+<body>
+	<header>
+		<img src="header desafio4.jpg"> 
+		<div id="links">
+			<a href="" id="menu" class="inicio">inicio</a>
+			<a href="" id="menu" class="Projetos em andamento">Projetos em andamento</a>
+			<a href="" id="menu" class="Projetos Concluídos">Projetos Concluídos</a>
+			<a href="" id="menu" class="Publicações ">Publicações </a>
+			<a href="" id="menu" class="Dissertações ">Dissertações </a>
+			<a href="" id="menu" class="Teses  ">Teses </a>
+			<a href="" id="menu" class="Eventos ">Eventos </a>
+			<a href="" id="menu" class="Contato  ">Contato  </a>
+			<a href="" id="menu" class="Fotos ">Fotos </a>
+
+		</div>
+	</header>
+	<main>
+		<div id="texto">Apresentação</div>
+			<p id="txt-inicio">O <span id="texto-bold">Grupo de Pesquisa Interação e Escrita</span> é formado por pesquisadores de várias Instituições de Ensino Superior do Paraná, preocupados com a escrita em situação de ensino e aprendizagem de línguas, nas suas mais variadas manifestações. Compõem o grupo professores e pesquisadores de ensino superior, ligados a programas de pós-graduação (stricto e lato sensu), alunos de pós-graduação e de graduação. As pesquisas desenvolvidas apresentam uma base teórica comum que é o sócio-interacionismo, a partir da perspectiva de Vygotsky e Bakhtin e toda a literatura dela decorrente, no Brasil. Além dessa abordagem, também se empregam os princípios do interacionismo sócio-discursivo, com maior representatividade em Bronckart. São interesses temáticos: o ensino, a aquisição e o desenvolvimento da escrita, envolvendo-se a leitura, a produção de textos e a análise linguística, como eixos norteadores, primários e pertinentes, no ensino básico e no ensino superior, especificamente na formação de professores de língua materna e língua estrangeira, incluindo-se o material didático, as abordagens, os procedimentos e as metodologias empregadas. Além disso, são desenvolvidas pesquisas que estudam a utilização e a posição da escrita em situações sociais definidas.</p>
+		</div>
+		<div id="texto">
+			Equipe:
+		</div>
+		<div id="equipe">
+			<div>
+				<p id="texto-bold">coordenador:</p>
+				<ul>
+					<li>
+						<a href="" id="part">Dr. Renilson José Menegassi</a>
+					</li>
+				</ul>
+				<p id="texto-bold">Vice-coordenador:</p>
+				<ul>
+					<li>
+						<a href="" id="part">Dra. Maria Adelaide de Freitas</a>
+					</li>
+				</ul>
+				<p id="texto-bold">Secretarias:</p>
+				<ul>
+					<li>
+						<a href="" id="part">Ms. Ângela Francine Fuza</a>
+						<a href="" id="part">Ms. Rafaela de Cássia Franzoi</a>
+					</li>
+				</ul>
+				<p id="texto-bold">Pesquisadores:</p>
+				<ul>
+					<li>
+						<a href="" id="part">Ms. Ângela Francine Fuza</a>
+						<a href="" id="part">Ms. Carmen Ilma Belincanta Borghi</a>
+						<a href="" id="part">Dra. Cláudia Valéria Dona Hila</a>
+						<a href="" id="part">Ms. Cristiane Malinoski Pianaro Angelo</a>
+						<a href="" id="part">Dra. Flávia Zanutto</a>
+						<a href="" id="part">Ms. Ivanize Ribeiro de Souza</a>
+						<a href="" id="part">Ms. Lílian Cristina Buzato Ritter</a>
+						<a href="" id="part">Ms. Luciana Cabrini Simões Calvo</a>
+						<a href="" id="part">Ms. Márcia Cristina Greco Ohuschi</a>
+						<a href="" id="part">Dra. Margarida da Silveira Corsi</a>
+						<a href="" id="part">Ms. Marilice Pompeu da Silva</a>
+						<a href="" id="part">Ms. Marilúcia dos Santos Domingos Striquer</a>
+						<a href="" id="part">Dr. Neil Armstrong Franco de Oliveira</a>
+						<a href="" id="part">Dra. Neiva Maria Jung</a>
+						<a href="" id="part">Ms. Paulo Cezar Rodrigues</a>
+						<a href="" id="part">Ms. Rafaela de Cássia Franzoi</a>
+						<a href="" id="part">Ms. Rubia Mara Bragagnollo</a>
+						<a href="" id="part">Ms. Ruth Ceccon Barreiros</a>
+						<a href="" id="part">Ms. Silvia Regina Emiliano</a>
+						<a href="" id="part">Ms. Wilsilene Rodrigues Gatto</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<p id="texto-bold">Estudantes:</p>
+				<ul>
+					<li>
+					<a href="" id="part">Adélia Aparecida Pereira da Silva Rodrigues</a>
+					<a href="" id="part">Aline Aparecida da Silva</a>
+					<a href="" id="part">Ana Maria da Silva</a>
+					<a href="" id="part">Débora Sodré Esper</a>
+					<a href="" id="part">Erika Polessi</a>
+					<a href="" id="part">Guilherme Rocha Duran</a>
+					<a href="" id="part">Marli Aparecida Pedro Duque</a>
+					<a href="" id="part">Natália Gonçalves Moterani</a>
+					<a href="" id="part">Pricila Gaffuri</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</main>
+	<footer>Todos os Direitos Reservados - www.escrita.uem.br - 2009</footer>
+
+	
+</body>
+</html>
