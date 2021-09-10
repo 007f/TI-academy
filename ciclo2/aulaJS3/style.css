@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corBg {
+    background-color: red;
+}
+
+p {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 15px;
+    width: 200px;
+    height: auto;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.445);
+    position:absolute;
+    z-index: 1;
+}

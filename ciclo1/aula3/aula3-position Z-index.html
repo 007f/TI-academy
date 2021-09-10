@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title> aula3-position Z-index </title>
+</head>
+<style>
+	body{margin: 0;	
+	}
+	div{
+		width: 80px;
+		height: 100px;
+		border: 1px solid #000;
+		position: absolute;
+	}
+	#z1{
+		background-color: red;
+		z-index: 100; /* o z-index atribui um "destaque" no objeto que se refere e quanto maior o numero mais destacado ele estará.*/
+		top: 0;
+
+	}
+	#z2{
+		background-color: yellow ;
+		z-index: 2;
+		bottom: 0;
+	}
+	#z3{
+		background-color: cyan;
+		right: 0;
+		top: 0;
+	}
+	#z4{
+		background-color: blue;
+		right: 0;
+		bottom: 0;
+	}
+
+</style>
+<body>
+	<div id="z1"></div>
+	<div id="z2"></div>
+	<div id="z3"></div>
+	<div id="z4"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title> aula3-position </title>
+</head>
+<style type="text/css">
+	body{margin: 0;
+	}
+	div#pai{
+		width: 400px;
+		height: 200px;
+		background: yellow;
+		border: 1px solid darkred;
+		position: absolute; /*position define a posição do objeto no espaço em que se encontra (div < main < body) e pode ser absolute/ relative/ fixed, apenas pode mexer em posiçoes perpendiculares ex: top e botton são contrarios logo ao mexer em 1 torna inutilizavel o outro*/
+		top: 30px;
+		left: 50%;
+
+
+	}
+</style>
+<body>
+	<main>
+		<div id='pai'></div>
+	</main>
+</body>	
+</html>
